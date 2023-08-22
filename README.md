@@ -2,6 +2,10 @@
 
 An example project that benchmarks the performance of functions and methods using [PHPBench](https://github.com/phpbench/phpbench).
 
+<p align="center">
+  <img src="./screencap/cli.gif" alt="Running PHPBench">
+</p>
+
 ## Usage
 
 Install dependencies
@@ -10,11 +14,11 @@ Install dependencies
 
 Run all the benchmarks
 
-    vendor/bin/phpbench run tests/Benchmarks  --report=aggregate
+    vendor/bin/phpbench run tests/Benchmarks --report=aggregate
 
 Run a single benchmark case
 
-    vendor/bin/phpbench run tests/Benchmarks/StringBench.php  --report=aggregate
+    vendor/bin/phpbench run tests/Benchmarks/StringBench.php --report=aggregate
 
 ## Things to keep in mind
 
