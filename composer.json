@@ -11,6 +11,11 @@
             "App\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Benchmark\\": "benchmarks/"
+        }
+    },
     "authors": [
         {
             "name": "JP Caparas",
