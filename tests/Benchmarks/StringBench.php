@@ -1,12 +1,12 @@
 <?php
 
-namespace Benchmark;
+namespace Tests\Benchmarks;
 
-class StringBench
+final class StringBench extends BenchmarkCase
 {
     private string $string;
 
-    public function __construct()
+    public function setUp(): void
     {
         $this->string = str_repeat('Hello World', 100);
     }
